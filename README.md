@@ -22,6 +22,8 @@
 - **🔍 Adaptive Resizing**: Dynamic resolution scaling based on content analysis
 - **💾 Export Functionality**: Save processed images directly to Photos library
 
+- ![Uploading Frame 3383@3x.png…]()
+
 ### User Experience
 - **🚀 Real-time Processing**: Asynchronous image analysis with progress indicators
 - **📊 Detailed Analytics**: Confidence scores and processing metrics
