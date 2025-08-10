@@ -84,12 +84,6 @@ let paddingRatio = 0.02 + 0.08 * closeness
 
 ## 🎨 Application Scenarios
 
-### Professional Use Cases
-- **📷 Photography Workflows**: Automatic composition analysis and subject isolation
-- **🏭 Quality Control**: Focus on defect regions in manufacturing inspection
-- **🏥 Medical Imaging**: Extract regions of interest for diagnostic analysis
-- **🛒 E-commerce**: Product photo optimization for automated cataloging
-
 ### Developer Applications
 - **🔍 Object Detection Preprocessing**: Enhance accuracy by removing noise
 - **📱 Mobile Computer Vision**: Reduce battery usage with efficient processing
