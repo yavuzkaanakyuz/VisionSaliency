@@ -8,41 +8,41 @@
 ![Xcode](https://img.shields.io/badge/Xcode-16.3+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 🎯 What is VisionSaliency?
+## What is VisionSaliency?
 
 In the world of computer vision and AI, API costs can quickly escalate when processing high-resolution images. VisionSaliency solves this problem by **automatically identifying and extracting the most important regions** of your images before sending them to expensive APIs like OpenAI Vision, Google Cloud Vision, or custom ML models.
 
 **The Problem:** Sending a 4K image to a vision API when only 15% of it contains relevant content wastes money and processing power.
 
 **The Solution:** VisionSaliency uses Apple's state-of-the-art attention-based algorithms to:
-- 🎯 **Detect attention-grabbing areas** with pixel-perfect accuracy
-- ✂️ **Smart crop** to focus on relevant content 
-- 📐 **Adaptive resize** based on content complexity
-- 💰 **Reduce API costs** by up to 75% while maintaining quality
+- Detect attention-grabbing areas with pixel-perfect accuracy
+- Smart crop to focus on relevant content 
+- Adaptive resize based on content complexity
+- Reduce API costs by up to 75% while maintaining quality
 
 <img width="9879" height="3936" alt="Frame 3383@3x" src="https://github.com/user-attachments/assets/bf8ffd22-6af0-4feb-bf7c-e76e632dd9b1" />
 
-## 🚀 Key Features
+## Key Features
 
 ### Intelligent Processing Pipeline
-- **🔍 Attention Detection**: Utilizes Apple's `VNGenerateAttentionBasedSaliencyImageRequest` for cutting-edge saliency analysis
-- **🧠 Smart Cropping**: Intensity-weighted centroid calculation with quantile-based boundary detection
-- **⚙️ Adaptive Resolution**: Dynamic scaling (512px-768px) based on region of interest complexity
-- **📊 Multi-Visualization**: View original, attention map, overlay, and optimized API-ready outputs
+- **Attention Detection**: Utilizes Apple's `VNGenerateAttentionBasedSaliencyImageRequest` for cutting-edge saliency analysis
+- **Smart Cropping**: Intensity-weighted centroid calculation with quantile-based boundary detection
+- **Adaptive Resolution**: Dynamic scaling (512px-768px) based on region of interest complexity
+- **Multi-Visualization**: View original, attention map, overlay, and optimized API-ready outputs
 
 ### Cost Optimization Technology
-- **💡 Context-Aware Padding**: Dynamic padding based on object proximity to image borders
-- **📏 Intelligent Sizing**: Smaller ROIs get lower resolution, complex scenes get higher resolution
-- **🎨 Quality Preservation**: Maintains visual fidelity while dramatically reducing file sizes
-- **⚡ Real-time Processing**: Asynchronous analysis with instant feedback
+- **Context-Aware Padding**: Dynamic padding based on object proximity to image borders
+- **Intelligent Sizing**: Smaller ROIs get lower resolution, complex scenes get higher resolution
+- **Quality Preservation**: Maintains visual fidelity while dramatically reducing file sizes
+- **Real-time Processing**: Asynchronous analysis with instant feedback
 
 ### Developer-Friendly Workflow
-- **📸 Flexible Input**: Camera capture or photo library selection
-- **📱 Native iOS Integration**: Built with SwiftUI and Vision Framework
-- **💾 Export Ready**: Save optimized images directly to Photos library
-- **📈 Performance Metrics**: Real-time confidence scores and processing analytics
+- **Flexible Input**: Camera capture or photo library selection
+- **Native iOS Integration**: Built with SwiftUI and Vision Framework
+- **Export Ready**: Save optimized images directly to Photos library
+- **Performance Metrics**: Real-time confidence scores and processing analytics
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### Core Vision Framework Implementation
 ```swift
@@ -67,7 +67,7 @@ let paddingRatio = 0.02 + 0.08 * closeness
 - **Medium ROI** (15-35%): 640px target - Balanced for detailed scenes  
 - **Large ROI** (> 35%): 768px target - Preserves complex compositions
 
-## 💰 Cost Savings in Action
+## Cost Savings in Action
 
 ### Real-World API Cost Reduction
 | Original Size | After VisionSaliency | Savings | Use Case |
@@ -77,20 +77,20 @@ let paddingRatio = 0.02 + 0.08 * closeness
 | 1920×1080 (2MP) | 768×432 | **65% cost reduction** | Complex scene analysis |
 
 ### Integration Benefits
-- **🤖 OpenAI Vision API**: Reduce token costs while maintaining accuracy
-- **☁️ Google Cloud Vision**: Lower per-request pricing with optimized images
-- **🔬 Custom ML Models**: Faster inference with focused input regions
-- **📊 Batch Processing**: Process more images within API rate limits
+- **OpenAI Vision API**: Reduce token costs while maintaining accuracy
+- **Google Cloud Vision**: Lower per-request pricing with optimized images
+- **Custom ML Models**: Faster inference with focused input regions
+- **Batch Processing**: Process more images within API rate limits
 
-## 🎨 Application Scenarios
+## Application Scenarios
 
 ### Developer Applications
-- **🔍 Object Detection Preprocessing**: Enhance accuracy by removing noise
-- **📱 Mobile Computer Vision**: Reduce battery usage with efficient processing
-- **🎯 Content Moderation**: Focus analysis on relevant image areas
-- **📈 Performance Optimization**: Speed up ML pipelines with targeted input
+- **Object Detection Preprocessing**: Enhance accuracy by removing noise
+- **Mobile Computer Vision**: Reduce battery usage with efficient processing
+- **Content Moderation**: Focus analysis on relevant image areas
+- **Performance Optimization**: Speed up ML pipelines with targeted input
 
-## 🧪 Advanced Processing Features
+## Advanced Processing Features
 
 ### Saliency Analysis Components
 - **Intensity-Weighted Centroids**: Mathematical precision in attention center calculation
@@ -104,19 +104,19 @@ let paddingRatio = 0.02 + 0.08 * closeness
 - **Context-Sensitive Processing**: Maintains image meaning while optimizing size
 - **Export Quality Control**: Multiple format support with quality validation
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 ### Processing Speed
-- **⚡ Real-time Analysis**: < 2 seconds for 12MP images on modern devices
-- **🔄 Asynchronous Operations**: Non-blocking UI with progress indicators
-- **💾 Memory Efficient**: Optimized CVPixelBuffer handling
-- **🎯 Accuracy First**: Maintains > 95% detection accuracy vs full-size images
+- **Real-time Analysis**: < 2 seconds for 12MP images on modern devices
+- **Asynchronous Operations**: Non-blocking UI with progress indicators
+- **Memory Efficient**: Optimized CVPixelBuffer handling
+- **Accuracy First**: Maintains > 95% detection accuracy vs full-size images
 
 ### Technical Specifications
-- **🖼️ Supported Formats**: JPEG, PNG, HEIF, and raw sensor data
-- **📱 Device Compatibility**: iPhone 12 and newer for optimal performance
-- **🔋 Power Efficiency**: Leverages Neural Engine when available
-- **📐 Resolution Range**: Handles images from 640×480 to 8K seamlessly
+- **Supported Formats**: JPEG, PNG, HEIF, and raw sensor data
+- **Device Compatibility**: iPhone 12 and newer for optimal performance
+- **Power Efficiency**: Leverages Neural Engine when available
+- **Resolution Range**: Handles images from 640×480 to 8K seamlessly
 
 ---
 
