@@ -20,7 +20,7 @@ In the world of computer vision and AI, API costs can quickly escalate when proc
 - Adaptive resize based on content complexity
 - Reduce API costs by up to 75% while maintaining quality
 
-<img width="9879" height="3936" alt="Frame 3383@3x" src="https://github.com/user-attachments/assets/bf8ffd22-6af0-4feb-bf7c-e76e632dd9b1" />
+<img width="2048" height="816" alt="VisionSaliency" src="https://github.com/user-attachments/assets/d7d60ff9-bc5c-4b52-bfc9-91d976734398" />
 
 ## Key Features
 
